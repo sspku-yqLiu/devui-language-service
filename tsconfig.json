@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strict": true
+  },
+  // "files": [],
+  "references": [
+    { "path": "./language-service" },
+  ]
+}
+
