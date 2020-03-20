@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-03-17 09:31:10
+ * @LastEditTime: 2020-03-18 17:14:47
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \devui-language-service\language-service\src\types.ts
+ */
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -41,25 +49,25 @@ export interface TemplateSource {
    */
   readonly source: string;
 
-  /**
-   * The span of the template within the source file.
-   */
-  readonly span: Span;
+  // /**
+  //  * The span of the template within the source file.
+  //  */
+  // readonly span: Span;
 
-  /**
-   * A static symbol for the template's component.
-   */
-  readonly type: StaticSymbol;
+  // /**
+  //  * A static symbol for the template's component.
+  //  */
+  // readonly type: StaticSymbol;
 
-  /**
-   * The `SymbolTable` for the members of the component.
-   */
-  readonly members: SymbolTable;
+  // /**
+  //  * The `SymbolTable` for the members of the component.
+  //  */
+  // readonly members: SymbolTable;
 
-  /**
-   * A `SymbolQuery` for the context of the template.
-   */
-  readonly query: SymbolQuery;
+  // /**
+  //  * A `SymbolQuery` for the context of the template.
+  //  */
+  // readonly query: SymbolQuery;
 
   /**
    * Name of the file that contains the template. Could be `.html` or `.ts`.
@@ -169,16 +177,16 @@ export type Declarations = Declaration[];
  * @publicApi
  */
 export interface LanguageServiceHost {
-  /**
-   * Return the template source information for all templates in `fileName` or for `fileName` if
-   * it is a template file.
-   */
-  getTemplates(fileName: string): TemplateSource[];
+  // /**
+  //  * Return the template source information for all templates in `fileName` or for `fileName` if
+  //  * it is a template file.
+  //  */
+  // getTemplates(fileName: string): TemplateSource[];
 
-  /**
-   * Returns the Angular declarations in the given file.
-   */
-  getDeclarations(fileName: string): Declarations;
+  // /**
+  //  * Returns the Angular declarations in the given file.
+  //  */
+  // getDeclarations(fileName: string): Declarations;
 
   /**
    * Return a summary of all Angular modules in the project.
@@ -361,5 +369,4 @@ export interface Hover {
  * @publicApi
  */
 export type LanguageService = Pick<
-    ts.LanguageService, 'getCompletionsAtPosition'|'getDefinitionAndBoundSpan'|
-    'getQuickInfoAtPosition'|'getSemanticDiagnostics'>;
+    ts.LanguageService, 'getCompletionsAtPosition'>;

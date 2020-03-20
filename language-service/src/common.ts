@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-03-17 09:31:40
+ * @LastEditTime: 2020-03-17 09:31:41
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \devui-language-service\language-service\src\common.ts
+ */
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -12,12 +20,12 @@ import {TemplateSource} from './types';
 
 export interface AstResult {
   htmlAst: HtmlAst[];
-  templateAst: TemplateAst[];
-  directive: CompileDirectiveMetadata;
-  directives: CompileDirectiveSummary[];
-  pipes: CompilePipeSummary[];
-  parseErrors?: ParseError[];
-  expressionParser: Parser;
+  // templateAst: TemplateAst[];
+  // directive: CompileDirectiveMetadata;
+  // directives: CompileDirectiveSummary[];
+  // pipes: CompilePipeSummary[];
+  // parseErrors?: ParseError[];
+  // expressionParser: Parser;
   template: TemplateSource;
 }
 

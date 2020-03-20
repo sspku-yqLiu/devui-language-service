@@ -10,7 +10,7 @@ import {AstPath, BoundEventAst, CompileDirectiveSummary, CompileTypeMetadata, Cs
 import * as ts from 'typescript';
 
 import {AstResult, SelectorInfo} from './common';
-import {DiagnosticTemplateInfo} from './expression_diagnostics';
+// import {DiagnosticTemplateInfo} from './expression_diagnostics';
 import {Span, Symbol, SymbolQuery} from './types';
 
 export interface SpanHolder {

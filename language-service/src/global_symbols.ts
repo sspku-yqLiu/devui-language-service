@@ -1,8 +1,8 @@
 /*
  * @Author: your name
- * @Date: 2020-03-16 19:50:56
- * @LastEditTime: 2020-03-16 20:48:00
- * @LastEditors: your name
+ * @Date: 2020-03-18 16:30:52
+ * @LastEditTime: 2020-03-18 16:31:02
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \devui-language-service\language-service\src\global_symbols.ts
  */
@@ -14,7 +14,7 @@
  * found in the LICENSE file at https://angular.io/license
  */
 
-import * as ng from './types';
+import * as ng from '../src/types';
 
 export const EMPTY_SYMBOL_TABLE: Readonly<ng.SymbolTable> = {
   size: 0,

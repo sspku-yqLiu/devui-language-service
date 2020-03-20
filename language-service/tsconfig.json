@@ -5,8 +5,6 @@
       "outDir": "out",
       "rootDir": "src"
     },
-    "include": ["src/*.ts"],
-    "exclude": [
-      "test/*.ts"
-    ]
+    "include": ["src/*.ts", "src/parser-related/*.ts", ],
+
   }
